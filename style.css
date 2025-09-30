@@ -1,0 +1,94 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #fafafa;
+	color: #333;
+	margin: 0;
+	padding: 20px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+h1 {
+	margin-bottom: 24px;
+	font-size: 2em;
+	color: #222;
+}
+
+button {
+	font-size: 1.2em;
+	padding: 12px 0;
+	margin: 0 10px 20px 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background: #fff;
+	color: #333;
+	cursor: pointer;
+	transition: background 0.2s, transform 0.15s;
+	width: 140px;
+}
+
+button:hover {
+	background: #f0f0f0;
+	transform: scale(1.03);
+}
+
+#result {
+	margin-top: 20px;
+	font-size: 1.1em;
+	min-height: 80px;
+	text-align: center;
+}
+
+.round-result {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 12px 16px;
+	background: #fff;
+	display: inline-block;
+}
+
+.result-text {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #c0392b;
+	/* rouge doux */
+}
+
+.score-text {
+	margin-top: 6px;
+	color: #555;
+	font-size: 0.95em;
+}
+
+.game-over {
+	margin-top: 20px;
+	padding: 16px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background: #fff;
+	text-align: center;
+}
+
+.game-over-title {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #222;
+}
+
+.game-over-winner {
+	display: block;
+	margin-top: 8px;
+	font-size: 1.1em;
+	color: #333;
+}
+
+.game-over-score {
+	display: block;
+	margin-top: 6px;
+	font-size: 0.95em;
+	color: #666;
+}
